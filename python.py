@@ -116,7 +116,7 @@ if __name__ == "__main__":
                     field = input("Vilket fält vill du ändra? (name, desc, price, quantity): ").lower()
                     new_value = input(f"Nytt värde för {field}: ")
 
-                    # Convert input to correct type
+                    # Convert input to correct type.
                     if field == 'price':
                         new_value = float(new_value)
                     elif field == 'quantity':
